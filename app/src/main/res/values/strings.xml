@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Title for the App
+    <string name="app_name">NewsApp by Florian</string>
+
+    // Text for empty content
+    <string name="no_content_available">No Content available</string>
+
+    // Text for empty date
+    <string name="no_date">No Date</string>
+
+    // Text for empty category
+    <string name="no_category">No Category</string>
+
+    // Title for Sports
+    <string name="sports">Sports</string>
+
+    // Title for Politics
+    <string name="politics">Politics</string>
+
+    // Title for Science
+    <string name="science">Science</string>
+
+    // Title for Culture
+    <string name="culture">Culture</string>
+
+    // Title for Lifestyle
+    <string name="lifestyle">Lifestyle</string>
+
+    // Title for Opinion
+    <string name="opinion">Opinion</string>
+
+</resources>

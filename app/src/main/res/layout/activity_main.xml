@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/sports_icon" />
+
+        <TextView
+            android:id="@+id/sports_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sports"
+            android:gravity="center"
+            android:background="#cfcfcf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/politics_icon"/>
+
+        <TextView
+            android:id="@+id/politics_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/politics"
+            android:gravity="center"
+            android:background="#cfcfcf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/science_icon"/>
+
+        <TextView
+            android:id="@+id/science_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/science"
+            android:gravity="center"
+            android:background="#cfcfcf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/cuture_icon"/>
+
+        <TextView
+            android:id="@+id/culture_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/culture"
+            android:gravity="center"
+            android:background="#cfcfcf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/lifestyle_icon"/>
+
+        <TextView
+            android:id="@+id/lifestyle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/lifestyle"
+            android:gravity="center"
+            android:background="#cfcfcf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/opinion_icon"/>
+
+        <TextView
+            android:id="@+id/opinion_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/opinion"
+            android:gravity="center"
+            android:background="#cfcfcf"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
