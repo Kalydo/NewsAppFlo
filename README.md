@@ -1,7 +1,8 @@
 NewsAppFlo
 
+Current version 1.0
 
-current build is prerelease some fixes should be done:
+current build is release some should be done:
 
 - clean code editing
 
